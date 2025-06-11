@@ -7,15 +7,15 @@ export const HomePage: React.FC = () => {
   const pastors = [
     {
       name: 'Youth Pastor Barkha Dewan',
-      img: '/images/Barkha.jpg',
+      img: '/images/Barkha.JPG',
     },
     {
       name: 'Youth Pastor Nabin Limbu',
-      img: '/images/Nabin.jpg',
+      img: '/images/Nabin.JPG',
     },
     {
       name: 'Worship Pastor Niraj Gadaily',
-      img: '/images/Niraj.jpg',
+      img: '/images/Niraj.JPG',
     },
   ];
 
@@ -26,11 +26,11 @@ export const HomePage: React.FC = () => {
       <section className="py-20 bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">Meet our Head Pastor at Home Church Chennai Nepali Location</h2>
-          <img
-            src="/images/pastor-Raju.jpg"
+<img
+            src="/images/Pastor-Raju.jpg"
             alt="Head Pastor's Family"
             className="w-full max-w-4xl mx-auto rounded-lg border border-gray-700 shadow-lg mb-4"
-          />
+/>
           <p className="italic text-gray-500 font-medium text-lg tracking-wide">
             Meet our head pastor Raju Tamang and his wonderful wife Romila Tamang, who leads our church with love,
             faith, and dedication.
