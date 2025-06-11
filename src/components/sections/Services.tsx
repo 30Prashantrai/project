@@ -38,7 +38,7 @@ export const Services: React.FC = () => {
       <section className="relative h-[600px] overflow-hidden">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
-          src="src/video/Video-home.mp4"
+          src="/video/Video-home.mp4"
           autoPlay
           loop
           muted

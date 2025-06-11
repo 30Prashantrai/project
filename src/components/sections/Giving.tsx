@@ -165,11 +165,11 @@ export const Giving: React.FC = () => {
                 )}
 
                 <div className="mt-4 bg-gradient-to-br from-purple-500 to-blue-600 rounded-lg p-4 text-white text-center">
-                  <img
-                    src="src/images/Offerings.png"
-                    alt="QR Code for UPI Payment"
-                    className="w-40 h-40 mx-auto mb-2 rounded-md border border-white shadow-md object-contain"
-                  />
+<img
+  src="/images/Offerings.png"
+  alt="QR Code for UPI Payment"
+  className="w-40 h-40 mx-auto mb-2 rounded-md border border-white shadow-md object-contain"
+/>
                   <p className="text-sm">Scan to pay via UPI</p>
                 </div>
               </div>

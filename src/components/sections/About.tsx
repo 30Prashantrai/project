@@ -42,7 +42,7 @@ export const About: React.FC = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/src/images/worship.jpg"
+                src="/images/worship.jpg"
                 alt="Church Community"
                 className="w-full h-full object-cover"
               />

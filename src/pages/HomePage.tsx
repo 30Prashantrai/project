@@ -7,15 +7,15 @@ export const HomePage: React.FC = () => {
   const pastors = [
     {
       name: 'Youth Pastor Barkha Dewan',
-      img: 'src/images/Barkha.jpg',
+      img: '/images/Barkha.jpg',
     },
     {
       name: 'Youth Pastor Nabin Limbu',
-      img: 'src/images/Nabin.jpg',
+      img: '/images/Nabin.jpg',
     },
     {
       name: 'Worship Pastor Niraj Gadaily',
-      img: 'src/images/Niraj.jpg',
+      img: '/images/Niraj.jpg',
     },
   ];
 
@@ -27,7 +27,7 @@ export const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">Meet our Head Pastor at Home Church Chennai Nepali Location</h2>
           <img
-            src="src/images/pastor-Raju.jpg"
+            src="/images/pastor-Raju.jpg"
             alt="Head Pastor's Family"
             className="w-full max-w-4xl mx-auto rounded-lg border border-gray-700 shadow-lg mb-4"
           />
@@ -100,7 +100,7 @@ export const HomePage: React.FC = () => {
                 className="hover:opacity-80 transition-opacity"
               >
                 <img
-                  src="src/images/bible.png"
+                  src="/images/bible.png"
                   alt="Bible App"
                   className="w-10 h-10 object-contain"
                 />

@@ -49,7 +49,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 whitespace-nowrap" onClick={handleLinkClick}>
-            <img src="/src/images/logo.png" alt="Home Church Logo" className="h-8 w-8" />
+            <img src="/images/logo.png" alt="Home Church Logo" className="h-8 w-8" />
             <span className="text-xl font-bold text-white whitespace-nowrap">HOME CHURCH</span>
           </Link>
 
